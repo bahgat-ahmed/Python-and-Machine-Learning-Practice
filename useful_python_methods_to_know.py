@@ -33,4 +33,8 @@ path.insert(list_position_to_insert_in, whatever_input_you_wish)
 friend_heights = list(map(int, input().split()))
 # using list comprehension
 friend_heights = [*map(int, input().split())]
+
+# save to a disk
+import cPickle as pickle
+pickle.dump(dup_cols, open('dup_cols.p', 'w'), protocol=pickle.HIGHEST_PROTOCOL)
 friend_heights = [int(x) for idx, x in enumerate(input().split()) if idx < number_of_accepted_inputs]
