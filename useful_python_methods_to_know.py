@@ -39,9 +39,7 @@ import cPickle as pickle
 pickle.dump(dup_cols, open('dup_cols.p', 'w'), protocol=pickle.HIGHEST_PROTOCOL)
 friend_heights = [int(x) for idx, x in enumerate(input().split()) if idx < number_of_accepted_inputs]
 
-"""
-sort by index or by another array
-"""
+"""sort by index or by another array"""
 # method 1
 s = [2, 3, 1, 4, 5, 3]
 sorted(range(len(s)), key=lambda k: s[k])
@@ -60,7 +58,7 @@ vals = [2,3,1,4,5]
 sorted(range(len(vals)), key=vals.__getitem__)
 # [2, 0, 1, 3, 4]
 
-"""For Debugging"""
+"""for debugging"""
 from IPython.core.debugger import set_trace
 # set your breakpoint where you want (put as many as you want)
 set_trace()
