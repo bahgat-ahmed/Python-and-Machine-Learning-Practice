@@ -59,3 +59,16 @@ sort_index = numpy.argsort(vals)
 vals = [2,3,1,4,5]
 sorted(range(len(vals)), key=vals.__getitem__)
 # [2, 0, 1, 3, 4]
+
+"""For Debugging"""
+from IPython.core.debugger import set_trace
+# set your breakpoint where you want (put as many as you want)
+set_trace()
+""" 
+Then use:
+1. n for next (like step over) don't enter the function
+2. s for step (like step into) enters the function
+3. c for continue (continue to the next breakpoint) 
+while debugging you can print any variable or data structure in your code scope
+(i.e. defined in your code scope)
+"""
