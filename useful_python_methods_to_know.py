@@ -70,3 +70,8 @@ Then use:
 while debugging you can print any variable or data structure in your code scope
 (i.e. defined in your code scope)
 """
+
+# shortcut for if else
+print("one") if condition == 1 else print("else")
+# getting the number of lowercase letters in a word
+sum(map(str.islower, word))
