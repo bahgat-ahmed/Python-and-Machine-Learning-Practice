@@ -75,3 +75,6 @@ while debugging you can print any variable or data structure in your code scope
 print("one") if condition == 1 else print("else")
 # getting the number of lowercase letters in a word
 sum(map(str.islower, word))
+
+# useful
+print("YNEOS"[any(map(sum, zip(*[map(int, input().split()) for i in ' '*int(input())])))::2])
