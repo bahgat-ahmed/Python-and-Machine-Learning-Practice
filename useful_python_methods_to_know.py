@@ -78,3 +78,10 @@ sum(map(str.islower, word))
 
 # useful
 print("YNEOS"[any(map(sum, zip(*[map(int, input().split()) for i in ' '*int(input())])))::2])
+
+# input mapping function-like object
+inputs = lambda: list(map(int, input().split()))
+# then use this
+any_current_input,  = inputs()
+# or if your inputs are two items use this
+x, y = inputs()
