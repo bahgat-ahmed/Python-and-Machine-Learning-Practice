@@ -85,3 +85,6 @@ inputs = lambda: list(map(int, input().split()))
 any_current_input,  = inputs()
 # or if your inputs are two items use this
 x, y = inputs()
+
+# splitting on more than one delimiter (, and space)
+re.split(',| ', input())
