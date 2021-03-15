@@ -88,3 +88,6 @@ x, y = inputs()
 
 # splitting on more than one delimiter (, and space)
 re.split(',| ', input())
+
+# consider changing the end attribute of the "print" function where the default is "end='\n'"
+print(str[r],end='')
