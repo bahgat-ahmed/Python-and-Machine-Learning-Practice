@@ -91,3 +91,13 @@ re.split(',| ', input())
 
 # consider changing the end attribute of the "print" function where the default is "end='\n'"
 print(str[r],end='')
+
+"""
+The casefold() method returns a string where all the characters are lower case.
+This method is similar to the lower() method, but the casefold() method is stronger, more aggressive, meaning that it will convert more characters into lower case,
+and will find more matches when comparing two strings and both are converted using the casefold() method.
+"""
+if s1.casefold() == s3.casefold():
+    print(s1.casefold())
+    print(s3.casefold())
+    print('s1 and s3 are equal in case-insensitive comparison')
