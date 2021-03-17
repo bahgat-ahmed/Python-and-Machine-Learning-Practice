@@ -101,3 +101,8 @@ if s1.casefold() == s3.casefold():
     print(s1.casefold())
     print(s3.casefold())
     print('s1 and s3 are equal in case-insensitive comparison')
+    
+# you can do this
+if (x==y==z==0):
+    # do anything
+    print(3)
