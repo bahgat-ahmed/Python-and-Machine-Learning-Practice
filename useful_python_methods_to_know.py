@@ -106,3 +106,6 @@ if s1.casefold() == s3.casefold():
 if (x==y==z==0):
     # do anything
     print(3)
+    
+# you can do this as well
+print(["NO","YES"][ X == 0 and Y == 0 and Z == 0 ])
