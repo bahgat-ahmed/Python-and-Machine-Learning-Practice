@@ -109,3 +109,6 @@ if (x==y==z==0):
     
 # you can do this as well
 print(["NO","YES"][ X == 0 and Y == 0 and Z == 0 ])
+
+# search if any of certain special characters are found in a word
+re.search("[#$%*+,.:;<=>^_`]", word)
