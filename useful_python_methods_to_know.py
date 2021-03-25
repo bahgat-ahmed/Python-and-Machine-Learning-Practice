@@ -112,3 +112,7 @@ print(["NO","YES"][ X == 0 and Y == 0 and Z == 0 ])
 
 # search if any of certain special characters are found in a word
 re.search("[#$%*+,.:;<=>^_`]", word)
+
+# loop across folders, sub_folders, and files
+for folders, sub_folders, files in os.walk(path):
+    # write your code here
